@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "directories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "isPaid", "order": "ASCENDING" },
+        { "fieldPath": "da", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "directories",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "niches", "arrayConfig": "CONTAINS" },
+        { "fieldPath": "traffic", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

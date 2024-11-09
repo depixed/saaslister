@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 dark:text-gray-100;
+  }
+
+  :root {
+    --primary-50: theme('colors.emerald.50');
+    --primary-100: theme('colors.emerald.100');
+    --primary-200: theme('colors.emerald.200');
+    --primary-300: theme('colors.emerald.300');
+    --primary-400: theme('colors.emerald.400');
+    --primary-500: theme('colors.emerald.500');
+    --primary-600: theme('colors.emerald.600');
+    --primary-700: theme('colors.emerald.700');
+    --primary-800: theme('colors.emerald.800');
+    --primary-900: theme('colors.emerald.900');
+    --primary-950: theme('colors.emerald.950');
+  }
+
+  .theme-emerald {
+    --primary-50: theme('colors.emerald.50');
+    --primary-100: theme('colors.emerald.100');
+    --primary-200: theme('colors.emerald.200');
+    --primary-300: theme('colors.emerald.300');
+    --primary-400: theme('colors.emerald.400');
+    --primary-500: theme('colors.emerald.500');
+    --primary-600: theme('colors.emerald.600');
+    --primary-700: theme('colors.emerald.700');
+    --primary-800: theme('colors.emerald.800');
+    --primary-900: theme('colors.emerald.900');
+    --primary-950: theme('colors.emerald.950');
+  }
+
+  .theme-blue {
+    --primary-50: theme('colors.blue.50');
+    --primary-100: theme('colors.blue.100');
+    --primary-200: theme('colors.blue.200');
+    --primary-300: theme('colors.blue.300');
+    --primary-400: theme('colors.blue.400');
+    --primary-500: theme('colors.blue.500');
+    --primary-600: theme('colors.blue.600');
+    --primary-700: theme('colors.blue.700');
+    --primary-800: theme('colors.blue.800');
+    --primary-900: theme('colors.blue.900');
+    --primary-950: theme('colors.blue.950');
+  }
+
+  .theme-violet {
+    --primary-50: theme('colors.violet.50');
+    --primary-100: theme('colors.violet.100');
+    --primary-200: theme('colors.violet.200');
+    --primary-300: theme('colors.violet.300');
+    --primary-400: theme('colors.violet.400');
+    --primary-500: theme('colors.violet.500');
+    --primary-600: theme('colors.violet.600');
+    --primary-700: theme('colors.violet.700');
+    --primary-800: theme('colors.violet.800');
+    --primary-900: theme('colors.violet.900');
+    --primary-950: theme('colors.violet.950');
+  }
+
+  .theme-rose {
+    --primary-50: theme('colors.rose.50');
+    --primary-100: theme('colors.rose.100');
+    --primary-200: theme('colors.rose.200');
+    --primary-300: theme('colors.rose.300');
+    --primary-400: theme('colors.rose.400');
+    --primary-500: theme('colors.rose.500');
+    --primary-600: theme('colors.rose.600');
+    --primary-700: theme('colors.rose.700');
+    --primary-800: theme('colors.rose.800');
+    --primary-900: theme('colors.rose.900');
+    --primary-950: theme('colors.rose.950');
+  }
+
+  .theme-amber {
+    --primary-50: theme('colors.amber.50');
+    --primary-100: theme('colors.amber.100');
+    --primary-200: theme('colors.amber.200');
+    --primary-300: theme('colors.amber.300');
+    --primary-400: theme('colors.amber.400');
+    --primary-500: theme('colors.amber.500');
+    --primary-600: theme('colors.amber.600');
+    --primary-700: theme('colors.amber.700');
+    --primary-800: theme('colors.amber.800');
+    --primary-900: theme('colors.amber.900');
+    --primary-950: theme('colors.amber.950');
+  }
+}
+
+@layer components {
+  .bg-brown-100 {
+    @apply bg-amber-100 dark:bg-amber-900;
+  }
+  .text-brown-800 {
+    @apply text-amber-800 dark:text-amber-200;
+  }
+  .hover\:bg-brown-200:hover {
+    @apply hover:bg-amber-200 dark:hover:bg-amber-800;
+  }
+}
